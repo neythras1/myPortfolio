@@ -1,0 +1,219 @@
+/* FONT IMPORTS */
+@font-face {
+  font-family: 'League Spartan';
+  src: url(fonts/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Playlist Script';
+  src: url(fonts/Playlist\ Script.otf);
+}
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url(fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: 'Caviar Dreams Bold';
+  src: url(fonts/CaviarDreams_Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Cheque';
+  src: url(fonts/Cheque-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Fabrica';
+  src: url(fonts/Fabrica.otf);
+}
+
+@font-face {
+  font-family: 'Alex Brush';
+  src: url(fonts/AlexBrush-Regular.ttf);
+}
+
+
+/* General Styles */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #FDECD5;
+  /* background-image: linear-gradient(to bottom, #B0B4ED 20%, #3a3f7c 100%); */
+}
+
+.background { 
+  z-index: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  right: 0;
+}
+
+/* Header Buttons */
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 1.5vw;
+  position: fixed;
+  width: 100vw;
+  align-items: center;
+  justify-content: right;
+  top: 0px;
+  z-index: 10;
+  position: absolute;
+  /* background-color: #6F75C6; */
+  padding: 1.4vw 0px;
+  background-color: #FDECD5;
+  /* border: #C6AC89;
+  border-width: .1vw;
+  border-style: solid; */
+}
+
+.home-container,
+.caseStudies-container,
+.aboutMe-container,
+.myResume-container
+ {
+  margin-right: 1vw;
+  background-color: #FDECD5 ;
+  padding: .6vw .8vw;
+  font-size: 1.8vw;
+  border-radius: 30px;
+  color: #C6AC89;
+  font-family: 'Alex Brush';
+  border-width: 0;
+  cursor: pointer;
+}
+
+.myResume-container{
+  margin-right: 3vw;
+}
+
+.title{
+  position: absolute;
+  font-size: 5vw;
+  top: 5vw;
+  font-family: 'Cheque';
+  color: #EBA288;
+  /* text-shadow: 7px 3px 3px #1b1847; */
+}
+
+.caseStudyModules{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11vw;
+  row-gap: 1vw;
+  column-gap: 3vw;
+}
+
+.caseStudy1,
+.caseStudy2,
+.caseStudy3,
+.caseStudy4 {
+  height: 25vw;
+  width: 15vw;
+  background-color: #FDECD5;
+  /* border-radius: 2vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: .5vw;
+  font-size: 1.8vw;
+  font-family: 'Caviar Dreams';
+  position: relative;
+  border: #C6AC89;
+  border-width: .2vw;
+  border-style: solid;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #9c8363;
+}
+
+.caseStudy{
+  text-decoration: none;
+}
+
+.caseStudy_title {
+  font-family: 'Fabrica';
+  color: #9c8363;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.caseStudy_subtitle {
+  margin-top: 2vw;
+  font-weight: bold;
+  font-size: 1vw;
+  text-align: center;
+  padding: 0px 1vw;
+  color: #424242;
+  position: absolute;
+  opacity: 0;
+}
+
+.caseStudy1:hover,
+.caseStudy2:hover,
+.caseStudy3:hover,
+.caseStudy4:hover {
+  .caseStudy_picture1,
+  .caseStudy_picture2,
+  .caseStudy_picture3,
+  .caseStudy_picture4{
+  opacity: 0;
+  transition: opacity 0.15s;
+  }
+  .caseStudy_subtitle{
+    opacity: 1;
+  }
+}
+
+.caseStudy_picture1,
+.caseStudy_picture2,
+.caseStudy_picture3,
+.caseStudy_picture4
+ {
+  height: 15vw;
+  align-items: center;
+}
+
+.caseStudy_picture1{
+  height: 13vw;
+  padding-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width:900px) { /*only when screen is a certain size or smaller*/
+  .caseStudyModules {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:901px) and (max-width:1299px) { /*only when screen is within a certain siz*/
+  .caseStudyModules {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1300px){
+  .caseStudyModules{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+

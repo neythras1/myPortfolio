@@ -1,0 +1,180 @@
+/* FONT IMPORTS */
+@font-face {
+  font-family: 'League Spartan';
+  src: url(fonts/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Playlist Script';
+  src: url(fonts/Playlist\ Script.otf);
+}
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url(fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: 'Caviar Dreams Bold';
+  src: url(fonts/CaviarDreams_Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Cheque';
+  src: url(fonts/Cheque-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Fabrica';
+  src: url(fonts/Fabrica.otf);
+}
+
+@font-face {
+  font-family: 'Alex Brush';
+  src: url(fonts/AlexBrush-Regular.ttf);
+}
+
+/* General Styles */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #B0B4ED; */
+  position: relative;
+  background-color: #FDECD5;
+}
+
+/* Background */
+.background-container{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 9;
+}
+
+.background-image{
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: #FDECD5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.self-portrait {
+  height: 37vw;
+  position: absolute;
+  right: 1vw;
+  top: 9vw;
+}
+
+.math_background {
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+  /* height: 48vw; */
+  width: 90vw;
+}
+
+/* Header Buttons */
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  position: fixed;
+  width: 100vw;
+  align-items: center;
+  justify-content: right;
+  top: 1.65vw;
+  z-index: 10;
+  position: fixed;
+}
+
+.logo {
+  height: 7vw;
+  margin-right: 51vw;
+  margin-top: 4vw;
+}
+
+.home-container,
+.caseStudies-container,
+.aboutMe-container,
+.myResume-container
+ {
+  margin-right: 1vw;
+  background-color: #FDECD5 ;
+  padding: 0 .8vw;
+  font-size: 1.8vw;
+  border-radius: 30px;
+  color: #C6AC89;
+  font-family: 'Alex Brush';
+  border-width: 0;
+  cursor: pointer;
+}
+
+.myResume-container{
+  margin-right: 3vw;
+}
+
+
+/* Title Text */
+.title-text{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 100;
+  top: 12vw;
+  left: 11vw;
+  align-items: right;
+}
+
+.title {
+  font-family: 'Cheque';
+  font-size: 8vw;
+  color: #EBA288;
+  /* text-shadow: 0.2vw 0.2vw 0px #F8DDA4; */
+  /* transform: rotate(-10deg); */
+}
+
+
+.PEJ {
+  font-family: 'Alex Brush';
+  font-size: 2vw;
+  margin-top: 4vw;
+  color: #C6AC89;
+  /* -webkit-text-stroke: .08vw #6F75C6; */
+  /* letter-spacing: 3px; */
+  text-align: center;
+}
+
+.created-by {
+  font-family: 'Caviar Dreams Bold';
+  color: #6F75C6;
+  text-shadow: 2px 2px 1px #ebb848;
+  font-size: 1vw;
+  margin-top: 20px;
+  margin-left: 4vw;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Subtitle */
+.subtitle{
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  color: #C6AC89;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 0.75vw;
+  font-weight: light;
+  z-index: 10;
+}
+
