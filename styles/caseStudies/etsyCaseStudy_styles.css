@@ -6,27 +6,27 @@
 
 @font-face {
   font-family: 'Playlist Script';
-  src: url(/MyPortfolio/styles/fonts/Playlist\ Script.otf);
+  src: url(../fonts/Playlist\ Script.otf);
 }
 
 @font-face {
   font-family: 'Caviar Dreams';
-  src: url(/MyPortfolio/styles/fonts/CaviarDreams.ttf);
+  src: url(../fonts/CaviarDreams.ttf);
 }
 
 @font-face {
   font-family: 'Caviar Dreams Bold';
-  src: url(/MyPortfolio/styles/fonts/CaviarDreams_Bold.ttf);
+  src: url(../fonts/CaviarDreams_Bold.ttf);
 }
 
 @font-face {
   font-family: 'Cheque';
-  src: url(/MyPortfolio/styles/fonts/Cheque-Regular.otf);
+  src: url(../fonts/Cheque-Regular.otf);
 }
 
 @font-face {
   font-family: 'Cheque Black';
-  src: url(/MyPortfolio/styles/fonts/Cheque-Black.otf);
+  src: url(../fonts/Cheque-Black.otf);
 }
 
 @font-face {
@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: 'Alex Brush';
-  src: url(/MyPortfolio/styles/fonts/AlexBrush-Regular.ttf);
+  src: url(../fonts/AlexBrush-Regular.ttf);
 }
 
 
@@ -114,17 +114,6 @@ body {
   font-size: 4vw;
   color: #9c8363;
 }
-
-
-/* .section{
-  padding-bottom: 12vw;
-  font-size: 1.75vw;
-  font-family: 'Alex Brush';
-  color: #9c8363;
-  position: absolute;
-  top: 11vw;
-  left: 8vw;
-} */
 
 .slider_container {
   overflow: hidden;

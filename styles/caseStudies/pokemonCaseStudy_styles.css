@@ -1,37 +1,43 @@
 /* FONT IMPORTS */
+/* FONT IMPORTS */
 @font-face {
   font-family: 'League Spartan';
-  src: url(fonts/LeagueSpartan-Bold.otf);
+  src: url(../fonts/LeagueSpartan-Bold.otf);
 }
 
 @font-face {
   font-family: 'Playlist Script';
-  src: url(fonts/Playlist\ Script.otf);
+  src: url(../fonts/Playlist\ Script.otf);
 }
 
 @font-face {
   font-family: 'Caviar Dreams';
-  src: url(fonts/CaviarDreams.ttf);
+  src: url(../fonts/CaviarDreams.ttf);
 }
 
 @font-face {
   font-family: 'Caviar Dreams Bold';
-  src: url(fonts/CaviarDreams_Bold.ttf);
+  src: url(../fonts/CaviarDreams_Bold.ttf);
 }
 
 @font-face {
   font-family: 'Cheque';
-  src: url(fonts/Cheque-Regular.otf);
+  src: url(../fonts/Cheque-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Cheque Black';
+  src: url(../fonts/Cheque-Black.otf);
 }
 
 @font-face {
   font-family: 'Fabrica';
-  src: url(fonts/Fabrica.otf);
+  src: url(../fonts/Fabrica.otf);
 }
 
 @font-face {
   font-family: 'Alex Brush';
-  src: url(fonts/AlexBrush-Regular.ttf);
+  src: url(../fonts/AlexBrush-Regular.ttf);
 }
 
 
@@ -53,7 +59,7 @@ body {
 }
 
 .background { 
-  z-index: 0;
+  z-index: -1;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -99,4 +105,32 @@ body {
 
 .myResume-container{
   margin-right: 3vw;
+}
+
+.title {
+  position: absolute;
+  top: 5vw;
+  left: 39vw;
+  font-family: 'Fabrica';
+  font-size: 4vw;
+  color: #9c8363;
+}
+
+
+.slide_text{
+  height: 100%;
+  width: 60%;
+  margin-top: 12vw;
+  padding: 2vw 7vw;
+  /* padding-top: 0vw; */
+  font-size: 1vw;
+  overflow-y: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline-block;
+  color: #000;
+  background-color: #FDECD5;
+  border: #9c8363;
+  border-width: .5vw;
+  border-style: solid;
+  border-radius: 1vw;
 }
