@@ -133,7 +133,7 @@ body {
   background-color: #e2cbab;
 
 
-  #i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10,#i11,#i12,#i13,#i14,#i15,#i16,#i17,#i18,#i19  {
+  #i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10,#i11,#i12,#i13,#i14  {
     display: none;
   }
 
@@ -265,12 +265,7 @@ body {
 #i11:checked ~ #eleven,
 #i12:checked ~ #twelve,
 #i13:checked ~ #thirteen,
-#i14:checked ~ #fourteen,
-#i15:checked ~ #fifteen,
-#i16:checked ~ #sixteen,
-#i17:checked ~ #seventeen,
-#i18:checked ~ #eighteen,
-#i19:checked ~ #nineteen{
+#i14:checked ~ #fourteen{
   z-index: 9;
 }
 
@@ -288,8 +283,3 @@ body {
 #i12:checked ~ .nav #dot12 {background: #CFC6E3;}
 #i13:checked ~ .nav #dot13 {background: #CFC6E3;}
 #i14:checked ~ .nav #dot14 {background: #CFC6E3;}
-#i15:checked ~ .nav #dot15 {background: #CFC6E3;}
-#i16:checked ~ .nav #dot16 {background: #CFC6E3;}
-#i17:checked ~ .nav #dot17 {background: #CFC6E3;}
-#i18:checked ~ .nav #dot18 {background: #CFC6E3;}
-#i19:checked ~ .nav #dot19 {background: #CFC6E3;}
