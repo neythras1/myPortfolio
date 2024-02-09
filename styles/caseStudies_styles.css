@@ -81,6 +81,12 @@ body {
   border-style: solid; */
 }
 
+.logo {
+  height: 7vw;
+  margin-right: 51vw;
+  margin-top: 4vw;
+}
+
 .home-container,
 .caseStudies-container,
 .aboutMe-container,
@@ -106,7 +112,7 @@ body {
   font-size: 5vw;
   top: 5vw;
   font-family: 'Cheque';
-  color: #EBA288;
+  color: #9c8363;
   /* text-shadow: 7px 3px 3px #1b1847; */
 }
 
@@ -116,7 +122,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 11vw;
+  margin-top: 10vw;
   row-gap: 1vw;
   column-gap: 3vw;
 }

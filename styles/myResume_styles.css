@@ -105,8 +105,13 @@ body {
   font-size: 5vw;
   top: 5vw;
   font-family: 'Cheque';
-  color: #EBA288;
+  color: #9c8363;
   /* text-shadow: 7px 3px 3px #1b1847; */
+}
+.logo {
+  height: 7vw;
+  margin-right: 51vw;
+  margin-top: 4vw;
 }
 
 .resume_pdf {
@@ -123,15 +128,15 @@ body {
   position: absolute;
   left: 10vw;
   top: 10vw;
-  background-color: #EBA288;
-  border: #bb7156;
+  background-color: #C6AC89;
+  border: #9c8363;
   border-width: .2vw;
   border-style: solid;
-  height: 12vw;
+  height: 6vw;
   width: 12vw;
   font-family: 'Fabrica';
-  font-size: 2.5vw;
-  border-radius: 8vw;
+  font-size: 2vw;
+  border-radius: 2vw;
   color: #FDECD5;
   cursor: pointer;
 }
